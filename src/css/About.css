@@ -1,0 +1,31 @@
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.sponsor:hover {
+    box-shadow: 0 0 10px black;
+    color: black;
+}
+
+.sponsor div {
+    margin: 10px;
+}
+
+.sponsor div img {
+    max-width: 300px;
+    max-height: 150px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
