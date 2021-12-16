@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../css/style.css';
 import FAQ from './FAQ';
 import Prizes from './Prizes';
+import Judging from './Judging';
 
 export default class App extends Component {
     render() {
@@ -17,6 +18,7 @@ export default class App extends Component {
                     <About />
                     <FAQ />
                     <Prizes />
+                    <Judging />
                 </div>
             </>
         )

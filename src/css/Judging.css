@@ -1,0 +1,9 @@
+div#judging iframe#judging-criteria {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+    height: 50vh;
+    width: 50vw;
+    min-width: 350px;
+}

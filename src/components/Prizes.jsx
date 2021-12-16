@@ -17,6 +17,7 @@ export default class Prizes extends Component {
                 <p>
                     Lorem ipsum dolor sit amet, probatus vituperata adversarium eos eu, qui idque pertinax an. Sed liber munere ut, virtute praesent sea id. Sea eu fabellas complectitur, inani dissentiunt duo id. Vim ex dicunt expetendis, sed primis essent nostrud et.
                 </p>
+                <hr />
             </div>
         )
     }

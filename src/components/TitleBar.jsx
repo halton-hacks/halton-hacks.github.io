@@ -43,6 +43,7 @@ export default class TitleBar extends Component {
                 <BootstrapNav scrollTo="about">About</BootstrapNav>
                 <BootstrapNav scrollTo="faq">FAQ</BootstrapNav>
                 <BootstrapNav scrollTo="prizes">Prizes</BootstrapNav>
+                <BootstrapNav scrollTo="judging">Judging</BootstrapNav>
             </BootstrapNavbar>
             
         )
