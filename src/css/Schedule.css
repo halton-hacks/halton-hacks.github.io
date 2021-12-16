@@ -1,0 +1,18 @@
+div#schedule iframe {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    height: 50vh;
+    width: 50vw;
+    min-width: 350px;
+}
+
+div#schedule div.calendar-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+div#schedule div.calendar-buttons a {
+    margin: 0 10px;
+}

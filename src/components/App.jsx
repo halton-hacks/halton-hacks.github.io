@@ -7,6 +7,7 @@ import './../css/style.css';
 import FAQ from './FAQ';
 import Prizes from './Prizes';
 import Judging from './Judging';
+import Schedule from './Schedule';
 
 export default class App extends Component {
     render() {
@@ -19,6 +20,7 @@ export default class App extends Component {
                     <FAQ />
                     <Prizes />
                     <Judging />
+                    <Schedule />
                 </div>
             </>
         )
