@@ -19,7 +19,7 @@ export default class Intro extends Component {
                         Check back later for more information!
                     </p>
                     <h5>
-                        March 13-15, 2022 • Online
+                        April 8-10, 2022 • Online
                     </h5>
                 </div>
             </div>
