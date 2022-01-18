@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import { Link } from 'react-scroll';
@@ -29,7 +29,7 @@ class BootstrapNav extends Component {
     render() {
         return (
             <Link to={this.props.scrollTo} smooth={true}>
-                <NavLink className="text-light">{this.props.children}</NavLink>
+                <p style={{ cursor: 'pointer', margin: '10px' }} className="text-light">{this.props.children}</p>
             </Link>
         )
     }
