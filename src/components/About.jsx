@@ -21,7 +21,13 @@ class Sponsor extends Component {
             <a href={this.props.url} className="sponsor" target="_blank" rel="noreferrer">
                 <div>
                     <p>{this.props.sponsor}</p>
-                    <img src={this.props.img} alt="" />
+                    <div style={{
+                        backgroundImage: `url(${this.props.img})`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center',
+                        height: '100px'
+                    }} />
                 </div>
             </a>
         )
