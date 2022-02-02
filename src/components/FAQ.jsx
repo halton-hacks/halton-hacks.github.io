@@ -4,18 +4,9 @@ import './../css/FAQ.css';
 const faq = {
     'What is a hackathon?': 'A hackathon is a competition, where groups of people come together to create a project, learn, and have fun.',
     'Who can participate?': 'Halton Hacks is open to any student in the Halton, such as middle schoolers, and high schoolers.',
-    'Got another question?': 'Halton Hacks is in the early stages of planning. Check back later for more information!'
 }
 
 class Question extends Component {
-    state = {
-        show: true
-    }
-
-    // handleClick = () => {
-    //     this.setState({show: !this.state.show})
-    // }
-
     render() {
         return (
             <div className="question">
@@ -36,9 +27,15 @@ export default class FAQ extends Component {
                         <Question
                             question={question}
                             answer={faq[question]}
-                            key={key}
-                        />
+                            key={key} />
                     )}
+
+                    {/* Another question */}
+                    <div className="question">
+                        <h4>Got another question?</h4>
+                        <p>Ask us <a href="https://forms.gle/vSmoLwAqVf6Dck8z7" target="_blank" rel="noreferrer">here</a> and we will get back to you as soon as possible!</p>
+                    </div>
+
                 </div>
                 <hr />
             </div>

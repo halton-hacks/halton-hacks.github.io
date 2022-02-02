@@ -12,11 +12,9 @@ export default class Intro extends Component {
                 <div>
                     <h1>Halton Hacks</h1>
                     <p>
-                    The first region-wide hackathon for students in Halton!
+                        The first region-wide hackathon for students in Halton!
                         <br /><br />
-                        We are currently in the early stages of planning of the hackathon.
-                        <br />
-                        Check back later for more information!
+                        Registration on DevPost is coming in March, check back soon for more information!
                     </p>
                     <h5>
                         April 8-10, 2022 • Online
